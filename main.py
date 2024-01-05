@@ -79,6 +79,6 @@ while True:
         out = find_similar(spearman_similarietes, name)
         break
 
-# Print results
+# Print results on screen
 for i in out:
     print(f"Name of Destillery: {i['name']} \nCoefficient with choosen Destillery: {i['coef']} \n")
